@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Index</title>
+    </head>
+    <body>
+      Hello World
+        <ul>
+        <% @articles.each do |article| %>
+        <li>
+          <p><%= article.title %></p>
+        </li>
+        <% end %>
+        </ul>
+    </body>
+</html>
